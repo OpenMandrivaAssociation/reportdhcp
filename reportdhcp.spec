@@ -44,25 +44,3 @@ install -m755 %{name}.pl %{buildroot}/var/www/cgi-bin/
 %doc CHANGELOG README
 %attr(755,root,root) /var/www/cgi-bin/%{name}.pl
 
-
-* Fri Jun 03 2005 Oden Eriksson <oeriksson@mandriva.com> 2.1-4mdk
-- rebuild
-
-* Sun May 16 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.1-3mdk
-- build release
-
-* Thu Jan 16 2003 Oden Eriksson <oden.eriksson@kvikkjokk.net> 2.1-2mdk
-- build release
-
-* Fri Sep 20 2002 Oden Eriksson <oden.eriksson@kvikkjokk.net> 2.1-1mdk
-- new version
-- fix P0
-- misc spec file fixes
-
-* Fri Jul 19 2002 Oden Eriksson <oden.eriksson@kvikkjokk.net> 2.0b-2mdk
-- <title></title> mess fix
-- rpmlint fix
-
-* Thu Jul 18 2002 Oden Eriksson <oden.eriksson@kvikkjokk.net> 2.0b-1mdk
-- initial cooker contrib
-
