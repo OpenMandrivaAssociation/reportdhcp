@@ -14,7 +14,6 @@ Patch0:		%{name}.patch
 Requires:	dhcp-server
 Requires:	webserver
 #Requires:	perl
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch
 
 %description
