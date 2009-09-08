@@ -1,6 +1,6 @@
 %define name	reportdhcp
 %define version 2.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary:	Displays statistics and lease entries for ISC DHCPD
 Name:		%{name}
