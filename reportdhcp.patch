@@ -1,0 +1,20 @@
+--- reportdhcp.pl	2002-09-18 11:17:10.000000000 -0400
++++ reportdhcp.pl.oden	2002-09-20 16:06:34.000000000 -0400
+@@ -28,7 +28,7 @@
+ 	# Change to your dhcp file and dhcpd.conf:
+ 	# (Currently set to ISC DHCP defaults)
+ 
+-my $dhcpfile = "/var/state/dhcp/dhcpd.leases";
++my $dhcpfile = "/var/lib/dhcp/dhcpd.leases";
+ my $dhcpdconf = "/etc/dhcpd.conf";
+ 
+ 	# change to the relative (web) path to the cgi directory where
+@@ -38,7 +38,7 @@
+ 
+ 	# change to reflect your system name
+ 
+-my $sysname = "Harrisonburg DSL";
++my $sysname = "Mandrake Linux 9.0 DHCP Networking";
+ 
+ ###----------------------End of Options-----------------------###
+ #################################################################
