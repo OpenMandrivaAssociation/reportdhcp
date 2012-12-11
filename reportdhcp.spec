@@ -44,3 +44,41 @@ install -m755 %{name}.pl %{buildroot}/var/www/cgi-bin/
 %doc CHANGELOG README
 %attr(755,root,root) /var/www/cgi-bin/%{name}.pl
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.1-9mdv2010.0
++ Revision: 433334
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.1-8mdv2009.0
++ Revision: 260232
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.1-7mdv2009.0
++ Revision: 248373
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 2.1-5mdv2008.1
++ Revision: 140746
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+    - kill changelog left by repsys
+
+
+* Fri Jul 14 2006 Olivier Thauvin <nanardon@mandriva.org>
++2006-07-14 19:06:04 (41177)
+- rebuild && mkrel
+
+* Fri Jul 14 2006 Olivier Thauvin <nanardon@mandriva.org>
++2006-07-14 19:04:14 (41176)
+Import reportdhcp
+
+* Fri Jun 03 2005 Oden Eriksson <oeriksson@mandriva.com> 2.1-4mdk
+- rebuild
+
+* Sun May 16 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.1-3mdk
+- build release
+
