@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Monitoring
-URL:		http://www.omar.org/opensource/reportdhcp/
+URL:		https://www.omar.org/opensource/reportdhcp/
 Source0:	%{name}.pl-%{version}.tar.bz2
 Patch0:		%{name}.patch
 Requires:	dhcp-server
